@@ -1,5 +1,8 @@
 test_name: GET user with id /2
 
+marks:
+  - reqresin
+
 stages:
   - name: GET user
     request:
