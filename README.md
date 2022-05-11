@@ -7,14 +7,3 @@ Begin with installation of required packages:
 To run tests:
   - pytest -m 'marker', where marker is some marker specified in pytest.ini under markers section (or without -m 'marker' do run all possible tests). 
 
-
- 
-   /\   /\   
-  //\\_//\\     ____
-  \_     _/    /   /
-   / * * \    /^^^]
-   \_\O/_/    [   ]
-    /   \_    [   /
-    \     \_  /  /
-     [ [ /  \/ _/
-    _[ [ \  /_/
