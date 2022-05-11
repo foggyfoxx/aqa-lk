@@ -1,0 +1,9 @@
+test_name: GET user with id /2
+
+stages:
+  - name: GET user
+    request:
+      url: "https://reqres.in/api/users/2"
+      method: GET
+    response:
+      status_code: 500
