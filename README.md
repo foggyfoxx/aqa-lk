@@ -10,3 +10,6 @@ To run tests:
   - if you want to get xml report that will be saved to the root, use pytest --disable-warnings --verbose --junitxml=test-report.xml
 
 
+
+![anime-keyboard](https://user-images.githubusercontent.com/51404386/167843272-f29d81e6-7edd-4e57-93a1-8ad0d0373d1a.gif)
+
