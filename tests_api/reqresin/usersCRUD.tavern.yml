@@ -1,12 +1,27 @@
-test_name: GET user with id /2
+test_name: POST, GET, PUT, PATCH, DELETE of the user
 
 marks:
   - reqresin
 
 stages:
-  - name: GET user
+  - name: POST user
     request:
-      url: "https://reqres.in/api/users/2"
-      method: GET
+      url: "https://reqres.in/api/users/"
+      method: POST
+      json:
+        name: "Tony"
+        job: "Stark"
     response:
-      status_code: 500
+      status_code: 201
+      save:
+        json:
+          userId: "id"
+
+  - name: DELETE created user
+    request:
+      url: "https://reqres.in/api/users/{userId}"
+      method: DELETE
+    response:
+      status_code: 204
+
+
